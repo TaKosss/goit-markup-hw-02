@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link
             href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
             rel="stylesheet">
+     <link rel="stylesheet" href="./css/style.css">
+
 </head>
 <body>
 <header>
@@ -18,16 +19,17 @@
         <nav class="header-navigation">
             <a href="" class="header-logo link">Web<span class="accent">Studio</span></a>
             <ul class="header-list list">
-                <li class="header-link current"><a href="" class="header-link link">Студия</a></li>
-                <li class="header-link"><a href="./portfolio.html" class="header-link link">Портфолио</a></li>
-                <li class="header-link"><a href="" class="header-link link">Контакты</a></li>
+                <li class="header-item current"><a href="" class="header-link link">Студия</a></li>
+                <li class="header-item"><a href="./portfolio.html" class="header-link link">Портфолио</a></li>
+                <li class="header-item"><a href="" class="header-link link">Контакты</a></li>
             </ul>
         </nav>
-        <ul>
-            <a href="mailto:info@example.com" class="header-mail link">info@devstudio.com</a>
-            <a href="tel:+380961111111" class="header-tel link">+38 096 111 11 11</a>
-        </ul>
+        <ul class="header-list list">
+            <li class="header-item"><a href="mailto:info@example.com" class="header-mail link">info@devstudio.com</a></li>
+            <li class="header-item"><a href="tel:+380961111111" class="header-tel link">+38 096 111 11 11</a></li>
+        </ul> 
     </header>
+    
     <main>
         <section class="hero">
             <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
@@ -66,34 +68,31 @@
         <section class="team">
             <h2 class="team-title">Наша команда</h2>
             <ul class="team-list list">
-                <div class="team-container">
+                
                 <li class="team-item">
                     <img src="./images/team-1.jpg" alt="продакт-дизайнер" width="270" height="260">
                     <h3 class="team-member-title">Игорь Демьяненко</h3>
                     <p lang="en" class="team-text">Product Designer</p>
                 </li>
-                </div>
-                <div class="team-container">
+                
                 <li class="team-item">
                     <img src="./images/team-2.jpg" alt="разроботчик" width="270" height="260">
                     <h3  class="team-member-title">Ольга Репина</h3>
                     <p lang="en" class="team-text">Frontend Developer</p>
                 </li>
-                </div>
-                <div class="team-container">
+                
                 <li class="team-item">
                     <img src="./images/team-3.jpg" alt="маркетолог" width="270" height="260">
                     <h3  class="team-member-title">Николай Тарасов</h3>
                     <p lang="en" class="team-text">Marketing</p>
                 </li>
-                </div>
-                <div class="team-container">
+                
                 <li class="team-item">
                     <img src="./images/team-4.jpg" alt="ui дизайнер" width="270" height="260">
                     <h3  class="team-member-title">Михаил Ермаков</h3>
                     <p lang="en" class="team-text">UI Designer</p>
                 </li>
-                </div>
+                
             </ul>
         </section>
         <section class="footer">
