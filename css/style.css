@@ -1,6 +1,7 @@
 :root {
     --header--title: #212121;
     --hover--color: #2196F3;
+    --hover--hero--color: hsl(207, 89%, 43%);
     --hero--text--color: #ffffff;
     --hero--background: #2F303A;
     --link--color: #757575;
@@ -111,7 +112,7 @@ body {
 .hero-btn:focus {
 
     color: var(--hero--text--color);
-    background-color: var(--hover--color);
+    background-color: var(--hover--hero--color);
 }
 
 .advantages-title {
